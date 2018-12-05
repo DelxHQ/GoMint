@@ -29,11 +29,15 @@
 GoMint is an open-source Minecraft Bedrock Edition server software implementation that is still work in progress. The goal is to provide a server implementation aiming for performance and stability with support for plugins. Purely written in Java.
 
 ### A word of warning
-Currently, GoMint is in a fast development-mode. The API is in all corners not stable and may change over time. The goal is to develop an API with the implementation problems we face. We will break the API multiple times until we reach the first release. To keep the impact minimal we deprecate symbols and provide better alternatives you can use.
+Currently, GoMint is in a fast development-mode. The API is in all corners not stable and may change over time. The goal is to develop an API with the implementation problems we face. We will break the API multiple times until we reach the first release. To keep the impact minimal we deprecate symbols and provide better alternatives you can use. 
 
 ```diff
 - Deprecated symbols (packages, fields, methods, classes etc.) will be deleted after two weeks of deprecation
 ```
+
+<p align="center">
+  <b>Use GoMint at your own risk!</b>
+</p>
 
 ## tl;dr
 | JDK  | Documentation                        | Download                                                   |
